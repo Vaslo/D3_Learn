@@ -8,16 +8,22 @@
 </head>
 <body>
     <script type="text/javascript">
-        d3.select("body").append("p").text("New Paragraph!");
-        var rowConverter = function (d) {
-            return {
-                Food: d.Food, //No conversion
-                Deliciousness: parseFloat(d.Deliciousness)
-            };
-        }
-        d3.csv("food.csv", rowConverter, function (data) {
-            console.log(data)
-        });
+        var dataset = [5, 10, 15, 20, 25];
+        d3.select("body").selectAll("p")
+            .data(dataset)
+            .enter()
+            .append("p")
+            .text(function (d) { return "I can count up to " + d; });
+        //d3.select("body").append("p").text("New Paragraph!");
+        //var rowConverter = function (d) {
+        //    return {
+        //        Food: d.Food, //No conversion
+        //        Deliciousness: parseFloat(d.Deliciousness)
+        //    };
+        //}
+        //d3.csv("food.csv", rowConverter, function (data) {
+        //    console.log(data)
+        //});
     </script>
 </body>
 </html>
