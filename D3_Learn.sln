@@ -3,12 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{72E602A0-97B4-41FF-815A-B82B512B38CC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{72E602A0-97B4-41FF-815A-B82B512B38CC}"
 	ProjectSection(SolutionItems) = preProject
 		Chap05_Index.html = Chap05_Index.html
 		Chap06_div.html = Chap06_div.html
 		food.csv = food.csv
 		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OlderHTML", "OlderHTML", "{B8EFA36C-E8DB-4C40-97D9-B52033ABA3BA}"
+	ProjectSection(SolutionItems) = preProject
+		Chap05_Index.html = Chap05_Index.html
+		Chap06_Circles.html = Chap06_Circles.html
+		Chap06_div.html = Chap06_div.html
 	EndProjectSection
 EndProject
 Global
