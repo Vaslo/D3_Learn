@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OlderHTML", "OlderHTML", "{B8EFA36C-E8DB-4C40-97D9-B52033ABA3BA}"
 	ProjectSection(SolutionItems) = preProject
 		Chap05_Index.html = Chap05_Index.html
+		Chap06_Bar_Chart.html = Chap06_Bar_Chart.html
 		Chap06_Circles.html = Chap06_Circles.html
 		Chap06_div.html = Chap06_div.html
 	EndProjectSection
