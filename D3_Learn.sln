@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OlderHTML", "OlderHTML", "{
 		Chap06_ScatterPlot.html = Chap06_ScatterPlot.html
 		Chap07_Scales.html = Chap07_Scales.html
 		Chap09_BarCharts_and_Transition.html = Chap09_BarCharts_and_Transition.html
+		Chapter09_ScatterPlot_trans.html = Chapter09_ScatterPlot_trans.html
 	EndProjectSection
 EndProject
 Global
